@@ -1,0 +1,31 @@
+# Core dependencies for Ollama LLM Project
+# Web scraping and HTTP requests
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+html5lib>=1.1
+
+# LLM client libraries
+ollama>=0.3.0
+openai>=1.30.0
+
+# Jupyter and IPython
+jupyterlab>=4.0.0
+notebook>=7.0.0
+ipykernel>=6.25.0
+ipython>=8.0.0
+
+# Data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+markdown>=3.5.0
+
+# HTTP and networking dependencies
+urllib3>=1.26.0
+charset-normalizer>=3.0.0
+certifi>=2023.0.0
+idna>=3.4 

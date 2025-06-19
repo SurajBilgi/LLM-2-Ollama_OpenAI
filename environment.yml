@@ -1,0 +1,40 @@
+name: ollama-llm-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core Python
+  - python=3.11
+  
+  # Jupyter and IPython
+  - jupyterlab>=4.0
+  - notebook>=7.0
+  - ipykernel>=6.25
+  - ipython>=8.0
+  
+  # Web scraping and HTTP requests
+  - requests>=2.31.0
+  - beautifulsoup4>=4.12.0
+  - lxml>=4.9.0  # XML parser for BeautifulSoup
+  - html5lib>=1.1  # HTML parser for BeautifulSoup
+  
+  # Data manipulation and analysis
+  - pandas>=2.0.0
+  - numpy>=1.24.0
+  
+  # OpenAI client library
+  - pip>=23.0
+  
+  # Development and utilities
+  - python-dotenv>=1.0.0  # For environment variables
+  - tqdm>=4.65.0  # Progress bars
+  
+  # Pip dependencies (not available via conda)
+  - pip:
+    - ollama>=0.3.0  # Ollama Python client
+    - openai>=1.30.0  # OpenAI client library
+    - markdown>=3.5.0  # For markdown display in Jupyter
+    - urllib3>=1.26.0  # HTTP library (dependency)
+    - charset-normalizer>=3.0.0  # Character encoding detection
+    - certifi>=2023.0.0  # SSL certificates
+    - idna>=3.4  # Internationalized domain names
